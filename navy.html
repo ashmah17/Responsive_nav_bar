@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./navy.css">
+</head>
+<body>
+    <nav id="sidebar">
+        <div class="icon"onclick="toggleSidebar()" >
+            &times;
+        </div>
+        <ul>
+                <li>
+                    <a href="#">                  <i class="fas fa-home" onclick="toggleSidebar()"></i>
+                     <span> Home</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <i class="fas fa-mobile" onclick="toggleSidebar()"></i>
+                        <span>Contact  </span>          
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-list-check" onclick="toggleSidebar()"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+
+                <li>            
+                    <a href="#">
+                         <i class="fas fa-info" onclick="toggleSidebar()"></i>
+                        <span>About </span>   
+                    </a>
+                </li>
+        </ul>
+    </nav>
+    <div class="container" id="container">
+        <i class="fas fa-bars" id="icon" onclick="toggleSidebar()"></i>
+        <!-- <nav id="sidebar">
+            <ul>
+                <a href="#">
+                    <li>
+                        <i class="fas fa-home" onclick="toggleSidebar()"></i>
+                        Home
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <i class="fas fa-mobile" onclick="toggleSidebar()"></i>
+                        Contact
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <i class="fa-solid fa-list-check" onclick="toggleSidebar()"></i>
+                        Services
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                         <i class="fas fa-info" onclick="toggleSidebar()"></i>
+                        About</li>
+                </a>
+            </ul>
+        </nav> -->
+    </div>
+    <script src="./navy.js"></script>
+</body>
+</html>
